@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebSockets</title>
+</head>
+<body>
+  <div class="container">
+    <div class="inbox">
+      <div class="inbox_people">
+        <h4>Active users</h4>
+      </div>
+      <div class="inbox_messages">
+        <div class="message__history"></div>
+        <div class="fallback"></div>
+      </div>
+    </div>
+    <form class="message_form">
+      <input type="text" name="" id="" class="message_form__input" placeholder="Type a message" />
+        <button type="submit" class="message_form_button">Enter</button>
+    </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
